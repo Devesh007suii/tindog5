@@ -1,0 +1,185 @@
+.body{
+  font-family: "Montserrat";
+}
+.title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.font{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+  /* this means padding is 0 to the top and left-right but 4.5 at bottom */
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  /* this will thin tose letters down and make it less prominent and blend in a better */
+}
+.botton-download{
+  margin: 5% 3% 5% 0;
+}
+.mobile{
+  width: 26%;
+  transform: rotate(25deg);
+  position: absolute;
+  padding-left: 9%;
+
+}
+
+#features{
+  padding:7% 5%;
+  z-index: 1;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.last{
+  font-family: "Montserrat-Bold";
+  line-height: 1.2;
+  color: white;
+  font-size: 350%;
+  padding: 0 20%
+}
+
+p{
+  color: grey;
+  padding: 0 10%;
+}
+
+.sticker{
+  padding: 5%;
+  color: #ef8172;
+}
+
+.sticker:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  font-family: "Montserrat-Bold";
+}
+
+.testimonial-text{
+  width: 100%;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3%;
+}
+
+.companies{
+  width: 15%;
+  margin: 20px 10px 50px;
+}
+
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+
+
+.pricing-header-pr{
+  text-align: center;
+  font-size: 200%;
+  padding-top: 1.5%;
+  line-height: 1.2;
+}
+.pricing-header-pr-pr{
+  text-align: center;
+  font-size: 200%;
+  padding-top: 1.5%;
+  line-height: 1.2;
+}
+/* pricing-column */
+
+.pricing-column{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 3%;
+}
+
+#footer{
+  text-align: center;
+  padding-top: 8%;
+}
+
+.emoji{
+  margin: 0 1%;
+}
+
+@media (max-width:1028px)
+{
+  .mobile{
+    position: static;
+    width: 50%;
+    transform: rotate(0deg);
+  }
+  .last{
+    font-size: 150%;
+  }
+  .companies{
+    width: 30%;
+  }
+  .pricing-header-pr-pr{
+    font-size: 100%;
+  }
+  .testimonial-image{
+    width: 30%;
+  }
+}
